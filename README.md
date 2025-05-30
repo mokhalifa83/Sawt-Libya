@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+# Sawt Libya
 
-## Project info
+A modern web application built with React and TypeScript.
 
-**URL**: https://lovable.dev/projects/7ef8ce0f-2a8b-4e16-b9f6-a328aafee7c4
+## About
+Sawt Libya is a web application designed to serve the Libyan community with modern web technologies and a responsive user interface.
 
-## How can I edit this code?
+## Technologies Used
+This project is built with:
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - User interface library
+- **shadcn/ui** - Beautiful and accessible UI components
+- **Tailwind CSS** - Utility-first CSS framework
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine.
+- [Download Node.js](https://nodejs.org/) (includes npm)
+- Or install with [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) (recommended)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7ef8ce0f-2a8b-4e16-b9f6-a328aafee7c4) and start prompting.
+### Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/mokhalifa83/Sawt-Libya.git
+   ```
 
-**Use your preferred IDE**
+2. **Navigate to the project directory**
+   ```bash
+   cd Sawt-Libya
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-Follow these steps:
+The application will be available at `http://localhost:5173`
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Available Scripts
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build
+- `npm run lint` - Run ESLint to check code quality
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Project Structure
+```
+sawt-libya/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Application pages
+│   ├── lib/           # Utility functions
+│   └── styles/        # CSS and styling files
+├── public/            # Static assets
+└── package.json       # Project dependencies and scripts
 ```
 
-**Edit a file directly in GitHub**
+## Development
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Code Style
+This project uses:
+- ESLint for code linting
+- TypeScript for type checking
+- Prettier for code formatting
 
-**Use GitHub Codespaces**
+### Contributing
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+### Build for Production
+```bash
+npm run build
+```
 
-This project is built with:
+This creates a `dist` folder with optimized production files.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Deploy Options
+- **Vercel**: Connect your GitHub repository to Vercel for automatic deployments
+- **Netlify**: Drag and drop the `dist` folder or connect via Git
+- **GitHub Pages**: Use GitHub Actions to build and deploy
+- **Any static hosting service**: Upload the contents of the `dist` folder
 
-## How can I deploy this project?
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Simply open [Lovable](https://lovable.dev/projects/7ef8ce0f-2a8b-4e16-b9f6-a328aafee7c4) and click on Share -> Publish.
+## Contact
+**Mokhalifa83** - mokhalifa83@outlook.com
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Project Link: [https://github.com/mokhalifa83/Sawt-Libya](https://github.com/mokhalifa83/Sawt-Libya)
